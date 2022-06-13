@@ -20,8 +20,11 @@ instruction : block             #blck
 block : bkO='{' listaInstrucciones bkC='}'
       ;
 
-declaration : type IDEN '=' expr ';'
+declaration : t=type id=IDEN list+=declarationL* ';'  //var1, var2, var3 = expr;
             ;
+
+declarationL : ('=' e=expr | ',' id=IDEN)
+             ;
 
 print   : ins='print' '(' expr ')' ';'
         ;

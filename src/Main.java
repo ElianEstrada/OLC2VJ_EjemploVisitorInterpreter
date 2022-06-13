@@ -11,20 +11,10 @@ public class Main {
     public static void main(String[] args) {
 
         CharStream charStream = CharStreams.fromString("""
-                int var1 = 10 + 10;
+                int var1 = 10, var2, var3=20;
                 print(var1);
-                print("hola");
-                print(2+2);
-                {
-                    int var1 = 4;
-                    print(var1);
-                    {
-                        int var1 = 123;
-                        print(var1);
-                    }
-                    print(var1);
-                }
-                print(var1);
+                print(var2);
+                print(var3);
                 """);
 
         GrammarLexer grammarLexer = new GrammarLexer(charStream);

@@ -2,25 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9c7234e-ef9d-4f55-aa62-b91351187ad8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/antlr_4_9_complete.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Compile.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Grammar.g4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abstract/Instruction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Environment/Console.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Environment/ReturnType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Environment/Symbol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Environment/TableSymbol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Expression/BinaryArithmetic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Expression/Identifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Expression/Primitive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Instructions/Block.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Instructions/Declaration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Instructions/Print.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Project1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grammar.g4" beforeDir="false" afterPath="$PROJECT_DIR$/Grammar.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Instructions/Declaration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Instructions/Declaration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grammar/Grammar.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/grammar/Grammar.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grammar/Grammar.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/grammar/Grammar.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grammar/GrammarBaseVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grammar/GrammarBaseVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grammar/GrammarLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/grammar/GrammarLexer.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grammar/GrammarLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grammar/GrammarLexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grammar/GrammarLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/grammar/GrammarLexer.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grammar/GrammarParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grammar/GrammarParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grammar/GrammarVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grammar/GrammarVisitor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/media/elian_estrada/Documents/Elian/2022/Pruebas_Java/OLC2VJ_Project1_201806838/src",
+    "last_opened_file_path": "/media/elian_estrada/Documents/Elian/2022/Pruebas_Java/OLC2VJ_Project1_201806838",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
@@ -100,7 +94,10 @@
       <option name="presentableId" value="Default" />
       <updated>1654365579462</updated>
       <workItem from="1654365581468" duration="116000" />
-      <workItem from="1654663950184" duration="10755000" />
+      <workItem from="1654663950184" duration="11090000" />
+      <workItem from="1654736335076" duration="1101000" />
+      <workItem from="1654752967346" duration="35000" />
+      <workItem from="1655085119663" duration="4321000" />
     </task>
     <servers />
   </component>
@@ -117,5 +114,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Environment/TableSymbol.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Instructions/Declaration.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

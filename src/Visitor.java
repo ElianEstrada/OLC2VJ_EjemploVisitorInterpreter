@@ -47,7 +47,25 @@ public class Visitor extends GrammarBaseVisitor<Object> {
 
     @Override
     public Object visitDeclaration(GrammarParser.DeclarationContext ctx) {
-        return new Declaration(ctx.IDEN().getSymbol().getLine(), ctx.IDEN().getSymbol().getCharPositionInLine(), ctx.IDEN().getText(), (String) visit(ctx.type()), visit(ctx.expr()));
+        //return new Declaration(ctx.IDEN().getSymbol().getLine(), ctx.IDEN().getSymbol().getCharPositionInLine(), ctx.IDEN().getText(), (String) visit(ctx.type()), visit(ctx.expr()));
+
+        ArrayList<Object> listDec = new ArrayList<>();
+
+
+        for (ParseTree item: ctx.list){
+            listDec.add(visit(item));
+        }
+
+        return new Declaration(ctx.IDEN().getSymbol().getLine(), ctx.id.getCharPositionInLine(), ctx.IDEN().getText(), (String) visit((ctx.type())), listDec);
+
+    }
+
+    @Override
+    public Object visitDeclarationL(GrammarParser.DeclarationLContext ctx) {
+        if(ctx.e == null){
+            return ctx.id.getText();
+        }
+        return visit(ctx.e);
     }
 
     @Override
